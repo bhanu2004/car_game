@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: 	#d6bf7b
+}
+.hide{
+    display: none;
+}
+.gamearea{
+    width: 450px;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(27, 27, 27);
+    position: relative;
+    overflow: hidden;
+
+}
+.score{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+.enemy{
+   
+    position: absolute;
+    left : 30px;
+    top: 50px;
+    z-index: 1;
+}
+.ecar{
+    width: 45px;
+    height: 70px;
+}
+.roadLine{
+    width: 10px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%)
+}
+.popup{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(74, 165, 250);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+}
+.car{
+    width: 45px;
+    height: 70px;
+    /* background-color: rgb(84, 130, 230); */
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+    z-index: 1;
+}
