@@ -1,5 +1,6 @@
 const score = document.querySelector('.sc');
 const popup = document.querySelector('.popup');
+const popup2 = document.querySelector('.popup2');
 const gamearea = document.querySelector('.gamearea');
 
 let keys = {ArrowUp:false, ArrowDown:false, ArrowLeft:false, ArrowRight:false};
@@ -75,7 +76,7 @@ function enemyCar(car){
  let ec = document.querySelectorAll('.enemy');
  ec.forEach(function(items){
      if(isCollide(car,items)){
-        popup.classList.remove('hide');
+        popup2.classList.remove('hide');
         player.start = false;
         
     // gamearea.classList.add('hide');

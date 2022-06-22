@@ -65,6 +65,18 @@
     cursor: pointer;
     z-index: 1;
 }
+.popup2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(74, 165, 250);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1;
+}
 .car{
     width: 45px;
     height: 70px;
